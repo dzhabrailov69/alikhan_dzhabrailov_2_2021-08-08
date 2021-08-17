@@ -136,7 +136,7 @@ body {
     color: #0065fc;
     background-color: #f2f2f2;
 }
-/* Filtres */
+/* les Filtres */
 .margFiltre {
     margin-top: 50px;
     margin-bottom: 40px;
@@ -176,7 +176,7 @@ body {
     color: #0065fc;
     background-color: #deebff;
 }
-/*INFO ICONE */
+/*les INFO ICONE */
 .info {
     display: flex;
     align-items: center;
@@ -189,7 +189,7 @@ body {
     margin-right: 5px;
 }
 
-/* HEBERGEMENTS */
+/* les HEBERGEMENTS */
 .sizeHebergements {
     flex: 2;
     height: 650px;
@@ -277,7 +277,7 @@ body {
     border-radius: 15px 15px 0 0;
 }
 
-/* Populaires */
+/* les Populaires */
 
 .blocPopulaires {
     padding-left: 20px;
@@ -326,7 +326,7 @@ body {
     border-radius: 15px 0 0 15px;
 }
 
-/* Activites */
+/*les Activites */
 .Activites {
     margin-top: 50px;
     margin-bottom: 50px;
