@@ -15,7 +15,7 @@
     <title>Reservia</title>
  </head>
  <body>
-     <nav class="sizeNav">
+     <nav class="sizeNav paddingMain">
          <div class="sizeLiens flexBetween">
              <div class="mobileTitrePara">
                  <img 
@@ -28,79 +28,79 @@
              </div>
              
                  <!-- une div qui englobe les deux liens hebergements et activites pour responsive mobile-->
-             <div class="sizeLien12 flexCentre">
-                 <div class="sizeLien sizeLienMobile flexCentre bordureNav"> 
+             <div class="sizeLien12 flexCenter">
+                 <div class="sizeLien sizeLienMobile flexCenter bordureNav"> 
                     <a class="colorLien5 decorationNone" href="#hebergements">Hébergements</a>
                  </div>
-                 <div class="sizeLien sizeLienMobile flexCentre bordureNav">
+                 <div class="sizeLien sizeLienMobile flexCenter bordureNav">
                     <a class="colorLien5 decorationNone" href="#activites">Activités</a>
                  </div>
              </div>
-                <div class="sizeLien flexCentre bordureNav">
+                <div class="sizeLien flexCenter bordureNav">
                     <a class="texteGras colorBlue decorationNone" href="#">S'inscrire</a>
                 </div>
          </div>
      </nav>
-    <header>
+    <header class="paddingMain">
              <section class="mobileTitrePara">
                  <h1 class="texteGras">
                      Trouver votre hébergement pour vos vacances de rêve
                 </h1>
                  <p>En plein centre ville ou en pleine nature</p>
              </section>
-             <section class="bordureSearch flexCentre">
-                   <div class="backGrey flexCentre iconSize">
+             <section class="bordureSearch flexCenter">
+                   <div class="backGrey flexCenter iconSize">
                        <i class="fas fa-map-marker-alt"></i>
                   </div>
                    <div class="recherche">
                      <input 
-                     class="recherche flexCentre bordureNone paddingSearch" 
+                     class="recherche flexCenter bordureNone paddingSearch" 
                      type="search" 
                      value="Marseille, France">
                   </div>
-                  <div class="backBlue flexCentre buttonSearch" >
+                  <div class="backBlue flexCenter buttonSearch" >
                     <span class="mobileNone">Rechercher</span>
                     <span class="desktopNone"><i class="fas fa-search"></i></span>
                   </div>
              </section>
-         <div class="mobileFiltreWrap filtre margFiltre">
+         <section class="mobileFiltreWrap filtre margFiltre">
                  <div class="margFiltreTitre"><h3>Filtres</h3></div>
                  <!--rajoute 2 div flexAround pour separer en mobile -->
                  <!--div1-->
                  <div class="flexAround">
                       <div class="mobileEconomiques flexBetween filtreTexteIcons">
-                      <i class="fas fa-money-bill-wave fa-lg filtreIcons flexCentre"></i>
-                      <div class="filtreTexte flexCentre">Economiques</div>
+                      <i class="fas fa-money-bill-wave fa-lg filtreIcons flexCenter"></i>
+                      <div class="filtreTexte flexCenter">Economiques</div>
                       </div>
                       <div class="mobileFamiliales flexBetween filtreTexteIcons">
-                      <i class="fas fa-child fa-lg filtreIcons flexCentre"></i>
-                      <div class="filtreTexte flexCentre">Familiales</div>
+                      <i class="fas fa-child fa-lg filtreIcons flexCenter"></i>
+                      <div class="filtreTexte flexCenter">Familiales</div>
                       </div>
                  </div>
                                       <!--div2-->
                  <div class="mobileFiltreWrap flexAround">
                       <div class="flexBetween filtreTexteIcons">
-                      <i class="fas fa-heart fa-lg filtreIcons flexCentre"></i>
-                      <div class="filtreTexte flexCentre">Romantique</div>
+                      <i class="fas fa-heart fa-lg filtreIcons flexCenter"></i>
+                      <div class="filtreTexte flexCenter">Romantique</div>
                       </div>
                       <div class="flexBetween filtreTexteIcons">
-                      <i class="fas fa-dog fa-lg filtreIcons flexCentre"></i>
-                      <div class="filtreTexte flexCentre">Animaux autorisés</div>
+                      <i class="fas fa-dog fa-lg filtreIcons flexCenter"></i>
+                      <div class="filtreTexte flexCenter">Animaux autorisés</div>
                       </div>
                 </div>
-         </div>
-             <div class="info"> 
-                     <div class="parentIcon flexCentre">
+           </section>
+             <section class="info"> 
+                     <div class="parentIcon flexCenter">
                      <i class="fas fa-info fa-xs colorBlue"></i>
                      </div>
                      <p>Plus de 500 logements sont disponibles</p>
-            </div>
+             </section>
     </header>
-     <main id="hebergements" class="flexAround">
-         <div class="flexColumnAround sizeHebergements backGrey blocHebergements">
+     <main id="hebergements" class="flexAround paddingMain">
+         <section class="flexColumnAround sizeHebergements backGrey blocHebergements">
              <h2>Hébergements à Marseille</h2>
              <div class="bloc1 flexBetween">
-                 <div class="cubeHebergements flexColumnCentre">
+                 <div class="cubeHebergements flexColumnCenter">
                       <div class="imgHebergements1"></div>
                      <div class="cubeDetailsHebergements">
                            <h3>Auberge de la Cannebiére</h3>
@@ -114,7 +114,7 @@
                          </div>
                     </div>
                  </div>
-                 <div class="cubeHebergements flexColumnCentre">
+                 <div class="cubeHebergements flexColumnCenter">
                      <div class="imgHebergements2"></div>
                     <div class="cubeDetailsHebergements">
                         <h3>Hôtel du port</h3>
@@ -128,7 +128,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="cubeHebergements flexColumnCentre">
+                <div class="cubeHebergements flexColumnCenter">
                     <div class="imgHebergements3"></div>
                     <div class="cubeDetailsHebergements">
                         <h3>Hôtel Les mouettes</h3>
@@ -144,7 +144,7 @@
                 </div>
              </div>
             <div class="bloc2 flexBetween">
-                <div class="cubeHebergements flexColumnCentre">
+                <div class="cubeHebergements flexColumnCenter">
                     <div class="imgHebergements4"></div>
                     <div class="cubeDetailsHebergements">
                         <h3>Auberge de la mer</h3>
@@ -158,7 +158,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="cubeHebergements flexColumnCentre">
+                <div class="cubeHebergements flexColumnCenter">
                    <div class="imgHebergements5"></div>
                    <div class="cubeDetailsHebergements">
                        <h3>Auberge Le Panier</h3>
@@ -172,7 +172,7 @@
                     </div>
                    </div>
                </div>
-               <div class="cubeHebergements flexColumnCentre">
+               <div class="cubeHebergements flexColumnCenter">
                    <div class="imgHebergements6"></div>
                    <div class="cubeDetailsHebergements">
                        <h3>Hôtel chez Amina</h3>
@@ -188,14 +188,14 @@
                </div>
             </div>
                 <p class="texteGras">Afficher Plus</p>
-        </div>
-         <div class="sizePopulaires blocPopulaires backGrey">
+         </section>
+         <section class="sizePopulaires blocPopulaires backGrey">
              <div class="flexBetween">
                  <h2 class=" tabletteSizeTitrePop texteGras">Les plus populaires</h2>
                  <div><i class="fas fa-chart-line fa-2x"></i></div>
              </div>
              <div class="flexColumnAround">
-             <div class="blocPopulaires12 cubePopulaires flexCentre">
+             <div class="blocPopulaires12 cubePopulaires flexCenter">
                  <div class="imgPopulaires1"></div>
                  <div class="cubeDetailsPopulaires">
                      <h3>Hôtel le soleil du matin</h3>
@@ -210,7 +210,7 @@
                  </div>
              
              </div>
-             <div class="blocPopulaires12 cubePopulaires flexCentre">
+             <div class="blocPopulaires12 cubePopulaires flexCenter">
                 <div class="imgPopulaires2"></div>
                 <div class="cubeDetailsPopulaires">
                     <h3>Au coeur de l'eau Chambre d'hôtes</h3>
@@ -225,7 +225,7 @@
                 </div>
                 
             </div>
-            <div class="blocPopulaires12 cubePopulaires flexCentre">
+            <div class="blocPopulaires12 cubePopulaires flexCenter">
                 <div class="imgPopulaires3"></div>
                 <div class="cubeDetailsPopulaires">
                     <h3>Hôtel Tout bleu et blanc</h3>
@@ -240,43 +240,43 @@
                 </div>
             </div>
           </div>
-         </div>
+        </section>
      </main>
-     <section id="activites" class="Activites">
+     <section id="activites" class="Activites paddingMain">
             <h2 class="mobileTitrePara">Activités à Marseille</h2>
       <div class="blocActivites flexBetween">
-               <div class="cubeActivites flexColumnCentre">
+               <div class="cubeActivites flexColumnCenter">
                    <div class="imgActivites1"></div>
                    <div class="HauteurTitre titreActivites"><h3>Vieux port</h3></div>
                </div>
          
 
          <div class="blocActivites55 flexColumnBetween">
-            <div class="cubeActivites55 flexColumnCentre">
+            <div class="cubeActivites55 flexColumnCenter">
                 <div class="imgActivites2"></div>
                 <div class="HauteurTitre titreActivites"><h3>Fort de Pomégues</h3></div>
             </div>
         
         
-            <div class="cubeActivites55 flexColumnCentre">
+            <div class="cubeActivites55 flexColumnCenter">
                 <div class="imgActivites3"></div>
                 <div class="HauteurTitre titreActivites"><h3>Îles du Frioul</h3></div>
             </div>
         </div>
-        <div class="cubeActivites flexColumnCentre">
+        <div class="cubeActivites flexColumnCenter">
             <div class="imgActivites4"></div>
             <div class="HauteurTitre titreActivites"><h3>Parc National des Calanques</h3></div>
         </div>
     
 
         <div class="blocActivites55 flexColumnBetween">
-            <div class="cubeActivites55 flexColumnCentre">
+            <div class="cubeActivites55 flexColumnCenter">
               <div class="imgActivites5"></div>
               <div class="HauteurTitre titreActivites"><h3>Notre-Dame-de-la-Garde</h3></div>
             </div>
    
    
-            <div class="cubeActivites55 flexColumnCentre">
+            <div class="cubeActivites55 flexColumnCenter">
               <div class="imgActivites6"></div>
               <div class="HauteurTitre titreActivites"><h3>Parc Longchamp</h3></div>
             </div>
@@ -284,33 +284,29 @@
      </div>
   </section>
 <footer>
-         <div class="footer backGrey flexBetween">
+         <section class="footer backGrey flexBetween">
              <div class="margeBlocFoot1 tailleBlocFoot">
                  <h3>A propos</h3>
                  <div class="divLienFoot"> 
                      <a href="#" class="decorationNone lienFoot">Fonctionnement du site</a>
                 </div>
                  <div class="divLienFoot"> 
-                     <a href="#" class="decorationNone lienFoot"
-                    >Conditions générales de vente</a
-                    ></div>
+                     <a href="#" class="decorationNone lienFoot">Conditions générales de vente</a>
+                 </div>
                  <div class="divLienFoot"> 
-                     <a href="#" class="decorationNone lienFoot"
-                    >Données et confidentialité</a
-                    ></div>
-                 
-                 
-                 
+                     <a href="#" 
+                        class="decorationNone lienFoot">Données et confidentialité</a>
+                </div>
              </div>
              <div class="tailleBlocFoot">
                 <h3>Nos hébérgements</h3>
                 <div class="divLienFoot">
-                    <a href="#" class="decorationNone lienFoot"
-                    >Charte qualité</a
-                    ></div>
+                    <a href="#" 
+                       class="decorationNone lienFoot">Charte qualité</a>
+                </div>
                 <div class="divLienFoot"> 
-                    <a href="#" class="decorationNone lienFoot"
-                    >Soumettre votre hôtel</a>
+                    <a href="#" 
+                       class="decorationNone lienFoot">Soumettre votre hôtel</a>
                 </div>
                 
                
@@ -318,15 +314,15 @@
              <div class="margeBlocFoot3 tailleBlocFoot">
                 <h3>Assistance</h3>
                 <div class="divLienFoot">
-                    <a href="#" class="decorationNone lienFoot"
-                    >Centre d'aide</a></div>
+                    <a href="#" 
+                       class="decorationNone lienFoot">Centre d'aide</a>
+                </div>
                 <div class="divLienFoot">
-                    <a href="#" class="decorationNone lienFoot"
-                    >Nous contacter</a></div>
-                
-                
+                    <a href="#" 
+                       class="decorationNone lienFoot">Nous contacter</a>
+                </div>
              </div>
-         </div>
+         </section>
      </footer>
  </body>
 </html>

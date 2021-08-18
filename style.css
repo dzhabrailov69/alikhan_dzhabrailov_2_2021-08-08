@@ -6,8 +6,9 @@
 html,
 body {
     font-family: Raleway;
+    margin: 0;
 }
-.flexCentre {
+.flexCenter {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +24,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.flexColumnCentre {
+.flexColumnCenter {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,7 +51,7 @@ body {
 .texteGras {
     font-weight : bold;
 }
-.colorBleu {
+.colorBlue {
     color: #0065fc;
 }
 .colorskyBlue {
@@ -104,6 +105,9 @@ body {
 .marglogo {
     margin-bottom: 7px;
 }
+.paddingMain {
+    padding: 0 2%;
+}
 /*********************************
 
               HEADER
@@ -152,7 +156,7 @@ body {
  *********************************/
 .margFiltre {
     margin-top: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .filtre {
     display: flex;
@@ -197,6 +201,7 @@ body {
 .info {
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
 .parentIcon {
     width: 20px;
@@ -237,14 +242,14 @@ body {
     width: 30%;
     height: auto;
     background-color: white;
-    padding: 1%;
+    padding: 5px 5px 15px 5px;
     border-radius: 20px;
     /* rajoute pour voir en version mobile */
     box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
 .cubeHebergements:hover {
     cursor:pointer ;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 .cubeDetailsHebergements {
     width: 90%;
@@ -461,7 +466,7 @@ body {
               FOOTER
               
  *********************************/
-.footer {
+ .footer {
     height: 300px;
     margin-top: 100px;
 }
