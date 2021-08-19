@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,14 +7,20 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" />
 <link 
    href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" 
-   rel="stylesheet"
-    />
+   rel="stylesheet"/>
     <script src="https://kit.fontawesome.com/572824ad27.js" crossorigin="anonymous"></script>
    <link 
-    rel="stylesheet" href="style.css" />
+    rel="stylesheet" href="style.css"/>
+    <link 
+    rel="stylesheet" href="petite_resolution.css"/>
     <title>Reservia</title>
  </head>
  <body>
+
+ <!------------------------------------------------
+                        HEADER
+  ------------------------------------------------->
+ <header>
      <nav class="sizeNav paddingMain">
          <div class="sizeLiens flexBetween">
              <div class="mobileTitrePara">
@@ -26,7 +32,7 @@
                    height="50"
                    />
              </div>
-             
+
                  <!-- une div qui englobe les deux liens hebergements et activites pour responsive mobile-->
              <div class="sizeLien12 flexCenter">
                  <div class="sizeLien sizeLienMobile flexCenter bordureNav"> 
@@ -40,11 +46,19 @@
                     <a class="texteGras colorBlue decorationNone" href="#">S'inscrire</a>
                 </div>
          </div>
-     </nav>
-    <header class="paddingMain">
+      </nav>
+  </header>
+  <!------------------------------------------------
+                        HEADER
+  ------------------------------------------------->
+
+  <!------------------------------------------------
+                        SEARCH
+  ------------------------------------------------->
+    <section class="paddingMain">
              <section class="mobileTitrePara">
                  <h1 class="texteGras">
-                     Trouver votre hébergement pour vos vacances de rêve
+                  Trouver votre hébergement pour des vacances de rêve
                 </h1>
                  <p>En plein centre ville ou en pleine nature</p>
              </section>
@@ -63,29 +77,29 @@
                     <span class="desktopNone"><i class="fas fa-search"></i></span>
                   </div>
              </section>
-         <section class="mobileFiltreWrap filtre margFiltre">
+         <section class="paddingMain3 mobileFiltreWrap filtre margFiltre">
                  <div class="margFiltreTitre"><h3>Filtres</h3></div>
                  <!--rajoute 2 div flexAround pour separer en mobile -->
                  <!--div1-->
                  <div class="flexAround">
                       <div class="mobileEconomiques flexBetween filtreTexteIcons">
                       <i class="fas fa-money-bill-wave fa-lg filtreIcons flexCenter"></i>
-                      <div class="filtreTexte flexCenter">Economiques</div>
+                      <div class="filtreTexte flexCenter texteGras">Économique</div>
                       </div>
                       <div class="mobileFamiliales flexBetween filtreTexteIcons">
                       <i class="fas fa-child fa-lg filtreIcons flexCenter"></i>
-                      <div class="filtreTexte flexCenter">Familiales</div>
+                      <div class="filtreTexte flexCenter texteGras">Familial</div>
                       </div>
                  </div>
                                       <!--div2-->
                  <div class="mobileFiltreWrap flexAround">
                       <div class="flexBetween filtreTexteIcons">
                       <i class="fas fa-heart fa-lg filtreIcons flexCenter"></i>
-                      <div class="filtreTexte flexCenter">Romantique</div>
+                      <div class="filtreTexte flexCenter texteGras">Romantique</div>
                       </div>
                       <div class="flexBetween filtreTexteIcons">
                       <i class="fas fa-dog fa-lg filtreIcons flexCenter"></i>
-                      <div class="filtreTexte flexCenter">Animaux autorisés</div>
+                      <div class="filtreTexte flexCenter texteGras">Animaux autorisés</div>
                       </div>
                 </div>
            </section>
@@ -95,8 +109,20 @@
                      </div>
                      <p>Plus de 500 logements sont disponibles</p>
              </section>
-    </header>
+            </section>
+ 
+  <!-----------------------------------------------
+                        SEARCH
+   ------------------------------------------------>
+
+   <!-----------------------------------------------
+                        MAIN
+   ------------------------------------------------>
+
      <main id="hebergements" class="flexAround paddingMain">
+         <!---------------------------------
+                    HEBERGEMENTS 
+         ----------------------------------->
          <section class="flexColumnAround sizeHebergements backGrey blocHebergements">
              <h2>Hébergements à Marseille</h2>
              <div class="bloc1 flexBetween">
@@ -147,7 +173,7 @@
                 <div class="cubeHebergements flexColumnCenter">
                     <div class="imgHebergements4"></div>
                     <div class="cubeDetailsHebergements">
-                        <h3>Auberge de la mer</h3>
+                        <h3>Hôtel de la mer</h3>
                         <p>Nuit à partir de 46€</p>
                         <div>
                             <i class="fas fa-star colorBlue"></i>
@@ -189,10 +215,17 @@
             </div>
                 <p class="texteGras">Afficher Plus</p>
          </section>
+         <!---------------------------------
+                    HEBERGEMENTS 
+         ----------------------------------->
+
+         <!---------------------------------
+                    POPULAIRES 
+         ----------------------------------->
          <section class="sizePopulaires blocPopulaires backGrey">
              <div class="flexBetween">
-                 <h2 class=" tabletteSizeTitrePop texteGras">Les plus populaires</h2>
-                 <div><i class="fas fa-chart-line fa-2x"></i></div>
+                 <h2 class="tabletteSizeTitrePop texteGras marginHP">Les plus populaires</h2>
+                 <div><i class="fas fa-chart-line fa-2x marginHP"></i></div>
              </div>
              <div class="flexColumnAround">
              <div class="blocPopulaires12 cubePopulaires flexCenter">
@@ -213,7 +246,7 @@
              <div class="blocPopulaires12 cubePopulaires flexCenter">
                 <div class="imgPopulaires2"></div>
                 <div class="cubeDetailsPopulaires">
-                    <h3>Au coeur de l'eau Chambre d'hôtes</h3>
+                    <h3>Au coeur de l'eau Chambres d'hôtes</h3>
                     <p>Nuit à partir de 71€</p>
                     <div>
                         <i class="fas fa-star colorBlue"></i>
@@ -241,7 +274,15 @@
             </div>
           </div>
         </section>
+        <!---------------------------------
+                    POPULAIRES 
+        ----------------------------------->
      </main>
+
+   <!-----------------------------------------------
+                        MAIN
+   ------------------------------------------------>
+
      <section id="activites" class="Activites paddingMain">
             <h2 class="mobileTitrePara">Activités à Marseille</h2>
       <div class="blocActivites flexBetween">
@@ -283,6 +324,11 @@
         </div>
      </div>
   </section>
+
+   <!-----------------------------------------------
+                        FOOTER
+   ------------------------------------------------>
+
 <footer>
          <section class="footer backGrey flexBetween">
              <div class="margeBlocFoot1 tailleBlocFoot">
@@ -299,7 +345,7 @@
                 </div>
              </div>
              <div class="tailleBlocFoot">
-                <h3>Nos hébérgements</h3>
+                <h3>Nos hébergements</h3>
                 <div class="divLienFoot">
                     <a href="#" 
                        class="decorationNone lienFoot">Charte qualité</a>
@@ -324,5 +370,10 @@
              </div>
          </section>
      </footer>
+
+   <!-----------------------------------------------
+                        FOOTER
+   ------------------------------------------------>
+
  </body>
 </html>
