@@ -6,7 +6,24 @@
     .sizeLien12 {
         margin-left: 35%;
     }
-
+    .cubeDetailsHebergements {
+        min-height: 150px;
+    }
+    .blocHebergements {
+        flex: none;
+        width: 90%;
+        margin-right: 0;
+        margin-top: 50px;
+        padding: 5%;
+    }
+    .blocPopulaires {
+        width: 90%;
+        margin-left: 0;
+        padding: 5%;
+    }
+    #hebergements {
+        flex-direction: column-reverse;
+    }
  }
 
  @media screen and (max-width: 1295px) {
@@ -41,7 +58,7 @@
     }
 }
 @media screen and (max-width:900px) {
-    khih
+    
     .mobileFiltreWrap {
         flex-direction: column;
         align-items: flex-start;
@@ -51,7 +68,6 @@
     }
     #hebergements {
         flex-direction: column-reverse;
-        width: 100%;
     }
     .blocPopulaires {
         flex: none;
