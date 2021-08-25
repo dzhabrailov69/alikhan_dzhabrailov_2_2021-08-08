@@ -24,6 +24,9 @@
     #hebergements {
         flex-direction: column-reverse;
     }
+    .bordureSearch {
+        margin: 40px 0 0 0;
+    }
  }
 
  @media screen and (max-width: 1295px) {
@@ -54,7 +57,10 @@
         padding-left: 50px;
         padding-right: 50px;
         padding-bottom: 50px;
-        padding-top: 35px;
+        padding-top: 50px;
+    }
+    .bordureSearch {
+        margin: 40px 0 0 0;
     }
 }
 @media screen and (max-width:900px) {
@@ -81,6 +87,9 @@
         margin-right: 0;
         margin-top: 50px;
         padding: 5%;
+    }
+    .bordureSearch {
+        margin: 40px 0 10px 0;
     }
 }
 @media screen and (max-width:770px) {
@@ -142,16 +151,38 @@
     .margeBlocFoot1 {
         margin-left: 0;
     }
+    .bordureSearch {
+        margin: 40px 0 10px 0;
+    }
 
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:613px) {
+    .footer {
+        margin-top: 0;
+    }
+    .lien_inscrire {
+        all: unset;
+        position: absolute;
+        width: unset;
+        top: 19px;
+        color: #0065fc;
+        right: 0px;
+        padding-right: 25px;
+    }
+    .lien_inscrire:hover{
+        border-top: none;
+        
+    }
+  
     .sizeLien {
         flex-direction: row;
     } 
     .sizeLien12 {
+        display: flex;
         order: 1;
         width: 100%;
         margin-left: 0;
+        position:unset;
     }
     .sizeLienMobile {
         width: 50%;
@@ -168,18 +199,20 @@
         border-top: 0;
         border-bottom: 5px solid #0065fc;
     }
-    /*.mobileTitreh1 {
-        font-size: x-large;
-    }*/
+    input {
+        width: 290px;
+    }
     .bordureSearch {
         width: auto;
         border: none;
+        margin: 40px 0 10px 0;
     }
     .recherche {
         width: 200px;
         border-bottom: 1px solid #f2f2f2;
         border-top: 1px solid #f2f2f2;
     }
+    
     .buttonSearch {
         width: 50px;
         border-radius: 15px;
@@ -221,11 +254,26 @@
     width: 90%;
 }
 .paddingMain3 {
-    padding: 0 3%;
+    padding: 0 6%;
 }
 .paddingMain {
     padding: 0;
 }
+/*.marginSearch {
+    margin: 0 3.8% 0 3.8%;
+}
+.marginSearch2 {
+    margin: 0 5% 0 5%;
+}*/
+/*.searchBorder {
+    height: 50px;
+    border-bottom: 2px solid #f2f2f2;
+    border-top: 2px solid #f2f2f2;
+    border-radius: 13px 0 0 13px;
+    }*/
+/*.mobileTitreh1 {
+    font-size: x-large;
+    }*/
   html,body {
       margin: 0;
       padding: 0;
