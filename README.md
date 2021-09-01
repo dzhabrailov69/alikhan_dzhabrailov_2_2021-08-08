@@ -1,8 +1,9 @@
-# alikhan_dzhabrailov_2_2021-08-08
+# alikhan_dzhabrailov_Reservia
 Projet 2 de mon parcours développeur web chez OpenClassrooms j'ai crée un site web pour Reservia à partir d'une maquette.
 
 
-Contraintes techniques
+
+# Contraintes techniques
  Deux maquettes sont fournis : l’une desktop et l’autre mobile. Le site devra également être adapté aux tablettes. Sur ce support, le choix est libre de faire les adaptations nécessaires avec la mise en page, tant qu’aucun élément n’est coupé et que le texte a une taille suffisante.le choix des breakpoints appropriés est libre également.
 
  Le choix des images le plus adapté par rapport à la résolution et au temps de chargement.
@@ -17,6 +18,7 @@ Contraintes techniques
 
 Outils et languages pour la réalisation du projet
 Le projet à été réalisé en HTML5/CSS3, sans framework
-Contact
+
+# Contact
+
 Adresse e-mail :dzhabrailov6669@gmail.com
-Workplace
