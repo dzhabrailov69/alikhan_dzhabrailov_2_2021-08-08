@@ -1,4 +1,4 @@
-# Mon premier Reservia
+# Mon projet Reservia
 Projet 2 de mon parcours développeur web chez OpenClassrooms j'ai crée un site web pour Reservia à partir d'une maquette pour une agence de logement.
 
 
