@@ -1,6 +1,7 @@
 # alikhan_dzhabrailov_Reservia
 Projet 2 de mon parcours développeur web chez OpenClassrooms j'ai crée un site web pour Reservia à partir d'une maquette.
 
+![reservia](dzhabrailov69/alikhan_dzhabrailov_2_2021-08-08/maquette/Desktop - 1.png)
 
 
 # Contraintes techniques
